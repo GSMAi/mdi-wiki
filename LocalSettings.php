@@ -31,7 +31,7 @@ $wgScriptPath       = "/mdikb";
 $wgScriptExtension  = ".php";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer           = "http://ec2-23-23-6-133.compute-1.amazonaws.com";
+$wgServer           = "https://ec2-23-23-6-133.compute-1.amazonaws.com";
 
 ## The relative URL path to the skins directory
 $wgStylePath        = "$wgScriptPath/skins";
