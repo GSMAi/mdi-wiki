@@ -18,20 +18,20 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename      = "mdikb";
-$wgMetaNamespace = "Mdikb";
+$wgSitename      = "gsmaintelligence";
+$wgMetaNamespace = "Gsmakb";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
 ## For more information on customizing the URLs
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## http://www.mediawiki.org/wiki/Manual:Short_URL
-$wgScriptPath       = "/mdikb";
-#$wgArticlePath = "/mdikb/$1";
+$wgScriptPath       = "/gsmaintelligence";
+#$wgArticlePath = "/gsmaintelligence/$1";
 $wgScriptExtension  = ".php";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer           = "https://ec2-23-23-6-133.compute-1.amazonaws.com";
+$wgServer           = "https://ec2-107-21-97-7.compute-1.amazonaws.com";
 
 ## The relative URL path to the skins directory
 $wgStylePath        = "$wgScriptPath/skins";
@@ -45,8 +45,8 @@ $wgLogo             = "$wgStylePath/common/images/gsma.png";
 $wgEnableEmail      = true;
 $wgEnableUserEmail  = true; # UPO
 
-$wgEmergencyContact = "apache@ec2-23-23-6-133.compute-1.amazonaws.com";
-$wgPasswordSender   = "apache@ec2-23-23-6-133.compute-1.amazonaws.com";
+$wgEmergencyContact = "apache@ec2-107-21-97-7.compute-1.amazonaws.com";
+$wgPasswordSender   = "apache@ec2-107-21-97-7.compute-1.amazonaws.com";
 
 $wgEnotifUserTalk      = false; # UPO
 $wgEnotifWatchlist     = false; # UPO
