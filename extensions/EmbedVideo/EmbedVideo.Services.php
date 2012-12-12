@@ -72,6 +72,9 @@ $wgEmbedVideoServiceList = array(
                 '"' .
             '/>',
     ),
+    'youtube_secure' => array(
+        'url' => 'https://www.youtube.com/v/$1'
+    ),
     'youtube' => array(
         'url' => 'http://www.youtube.com/v/$1'
     ),
