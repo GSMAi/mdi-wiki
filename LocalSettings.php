@@ -132,7 +132,7 @@ $wgResourceLoaderMaxQueryLength = -1;
 
 # The following permissions were set based on your choice in the installer
 $wgGroupPermissions['*']['createaccount'] = false;
-$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['*']['edit'] = true;
 $wgGroupPermissions['*']['createpage'] = false;
 $wgGroupPermissions['*']['createtalk'] = false;
 
@@ -152,3 +152,4 @@ $wgDefaultUserOptions['wikieditor-preview'] = 1;
 $wgDefaultUserOptions['wikieditor-publish'] = 1;
 
 require_once("$IP/extensions/EmbedVideo/EmbedVideo.php");
+require_once( "$IP/extensions/ForceLogin/ForceLogin.php" );
