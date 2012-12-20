@@ -297,14 +297,10 @@ class EditPage {
 	 * the newly-edited page.
 	 */
 	function edit() {
-		global $wgOut, $wgRequest, $wgUser, $wgTitle;
+		global $wgOut, $wgRequest, $wgUser;
 		// Allow extensions to modify/prevent this form or submission
 		if ( !wfRunHooks( 'AlternateEdit', array( $this ) ) ) {
 			return;
-		}
-
-		if(!$wgUser->isLoggedIn()){
-			$wgOut->redirect('/index.php?title=Special:UserLogin&returnto='.$wgTitle.'&returntoquery=action%3Dedit');
 		}
 
 		wfProfileIn( __METHOD__ );
