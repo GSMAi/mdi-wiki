@@ -153,3 +153,4 @@ $wgDefaultUserOptions['wikieditor-publish'] = 1;
 
 require_once("$IP/extensions/EmbedVideo/EmbedVideo.php");
 require_once( "$IP/extensions/ForceLogin/ForceLogin.php" );
+require_once("$IP/extensions/Widgets/Widgets.php");
