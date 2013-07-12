@@ -155,3 +155,4 @@ require_once("$IP/extensions/EmbedVideo/EmbedVideo.php");
 require_once( "$IP/extensions/ForceLogin/ForceLogin.php" );
 require_once("$IP/extensions/Widgets/Widgets.php");
 require_once("$IP/extensions/EmbedPDF.php");
+require_once("$IP/extensions/embed_document.php");
