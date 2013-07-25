@@ -188,7 +188,7 @@ class MediawikiPlayer
       )
       {
          $scriptUrl = htmlspecialchars(
-         	$wgMWPlayerDir . ($useSWF ? 'https://wiki.gsmaintelligence.com/gsma_kb/extensions/MediawikiPlayer/swfobject.js' : 'https://wiki.gsmaintelligence.com/gsma_kb/extensions/MediawikiPlayer/jwplayer.js')
+         	$wgMWPlayerDir . ($useSWF ? '/swfobject.js' : '/jwplayer.js')
          );
          
          if ($useSWF)         
